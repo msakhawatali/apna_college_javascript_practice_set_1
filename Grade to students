@@ -1,0 +1,23 @@
+let marks = prompt("write a your marks");
+let Grade;
+if (marks >= 80 && marks <= 100)
+{
+   Grade = "Your grade is A";
+}
+else if (marks >= 70 && marks <= 79)
+{
+  Grade = "Your grade is B";
+}
+else if (marks >= 60 && marks <= 69)
+{
+    Grade = "Your grade is C";
+}
+else if (marks >= 50 && marks <= 59)
+{
+    Grade = "Your grade is D";
+}
+else if (marks >= 0 && marks <= 49)
+{
+    Grade = "Your grade is F";
+}
+console.log(Grade);
